@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>העבודות שלי</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            direction: rtl;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .folder-icon {
+            font-size: 40px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .item {
+            height: 150px;
+            border: 5px solid red;
+            background-size: cover;
+            background-position: center;
+        }
+        h1 {
+            font-family: "Assistant-Bold.ttf",sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="folder-icon">&#128193;</div>
+            <h1>העבודות שלי</h1>
+        </div>
+        <div class="gallery">
+            <div class="item" style="background-image: url('https://cdn.discordapp.com/attachments/1319617199945678849/1326570825574252594/maxresdefault.png?ex=677fe8db&is=677e975b&hm=af7810be4cbcca0e4952009daabb520976c862a95604644284fa3cc464ec934d&');"></div>
+            <div class="item" style="background-image: url('https://cdn.discordapp.com/attachments/1319617199945678849/1326554698559520879/maxresdefault.png?ex=677fd9d6&is=677e8856&hm=07111f71a1b7108ee1e9f6d5ab37335442a7bd8ebfc2450e6e9fcb7810eb69e4&');"></div>
+            <div class="item" style="background-image: url('https://cdn.discordapp.com/attachments/1319617199945678849/1326554897566531670/maxresdefault.png?ex=677fda05&is=677e8885&hm=a2f6241112342bac50115c912f8ae4a71df50de9cc8c93ff60aeb03a924e8964&');"></div>
+            <div class="item" style="background-image: url('https://cdn.discordapp.com/attachments/1319617199945678849/1326555951544799353/maxresdefault.png?ex=677fdb01&is=677e8981&hm=b90cd2ac37290294d77bbc3b2a5651c559be8900aa50b436b846af261a34d4cc&');"></div>
+            <div class="item" style="background-image: url('https://cdn.discordapp.com/attachments/1319617199945678849/1326554606540554261/maxresdefault.png?ex=677fd9c0&is=677e8840&hm=444b75dd9ece78cc65ca56a7d9fb82db0394c818bdc420ecb4673ac2b486ae77&');"></div>
+            <div class="item" style="background-image: url('https://cdn.discordapp.com/attachments/1319617199945678849/1326554749918646292/maxresdefault.png?ex=677fd9e2&is=677e8862&hm=440fb6253de809d8a59b8f88b1daaca221a8f2cb50b3f632dda91db1444b7caf&');"></div>
+        </div>
+    </div>
+</body>
+</html>
